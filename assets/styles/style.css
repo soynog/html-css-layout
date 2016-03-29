@@ -1,9 +1,102 @@
-div{
-  height: 100px;
+header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+div {
   border: 1px solid #000;
-  margin-bottom: 10px;
-  text-align: center;
-  width: 30%;
+}
+
+.page {
+  border: 0px dashed #000000;
+  overflow:auto;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.float {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.wrapper {
+  border-color: #FF0000;
+  height: auto;
+}
+
+#sectA {
+  height: auto;
+}
+
+#sectB {
+  width: 1000px;
+}
+
+#sectC {
+  width: 1000px;
+}
+
+#wrapA {
+  width: 60%;
+}
+
+#wrapB {
+  width: 40%;
+}
+
+#wrapC {
+  width: 100%;
+}
+
+#wrapD {
+  width: 100%;
+}
+
+#wrapE {
+  width: 100%;
+}
+
+#colA {
+  width: 35%;
+  height: 1200px;
+}
+
+#colB {
+  width: 65%;
+  height: 1200px;
+}
+
+#colC {
+  width: 100%;
+  height: 1600px;
+}
+
+#blockA {
+  width: 100%;
+  height: 125px;
+}
+
+#blockB {
+  width: 100%;
+  height: 275px;
+}
+
+#blockC {
+  width: 100%;
+  height: 400px;
+}
+
+#blockD {
+  width: 100%;
+  height: 400px;
+}
+
+#blockE {
+  width: 100%;
+  height: 1200px;
 }
 
 p {
@@ -14,4 +107,8 @@ p {
 }
 
 .full{
+}
+
+@media (max-width: 800px) {
+
 }

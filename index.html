@@ -2,23 +2,38 @@
 <html>
     <head>
       <title>Example</title>
-
       <script src="vendor.bundle.js" type="text/javascript" charset="utf-8" defer></script>
       <script src="bundle.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
-    <body class="container-fluid">
-      <div class="half">
-        <p>I'm a box!</p>
+    <body>
+      <div class="page wrapper" id="header">
+        <header>
+          <div>HEADER BAR</div>
+        </header>
       </div>
-      <div class="half">
-        <p>I'm a box!</p>
+      <div class="wrapper page clear" id="sectA">
+        <div class="wrapper float" id="wrapA">
+          <div class="float" id="colA">Column A</div>
+          <div class="float" id="colB">Column B</div>
+          <div class="float" id="blockA">Block A</div>
+          <div class="float" id="blockB">Block B</div>
+        </div>
+        <div class="wrapper float" id="wrapB">
+          <div class="float" id="colC">Column C</div>
+        </div>
+        <div class="wrapper float" id="wrapC">
+          <div class="float" id="blockC">Block C</div>
+        </div>
       </div>
-      <div class="half">
-        <p>I'm a box!</p>
+      <div class="wrapper page clear" id="sectB">
+        <div class="wrapper float" id="wrapD">
+          <div class="float" id="blockD">Block D</div>
+        </div>
       </div>
-      <div class="full">
-        <p>I'm also a box!</p>
-        <p>Just a little different from those others.</p>
+      <div class="wrapper page clear" id="sectC">
+        <div class="wrapper float" id="wrapE">
+          <div class="float" id="blockE">Block E</div>
+        </div>
       </div>
     </body>
 </html>
