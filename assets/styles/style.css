@@ -1,10 +1,22 @@
 header {
   width: 100%;
   margin: 0 auto;
+  text-align: center;
+
 }
 
 div {
   border: 1px solid #000;
+}
+
+h1 {
+  font-family: serif;
+  font-size: 48pt;
+}
+
+h2 {
+  font-family: serif;
+  font-size: 24pt;
 }
 
 .page {
@@ -25,6 +37,17 @@ div {
 .wrapper {
   border-color: #FF0000;
   height: auto;
+  overflow: auto;
+}
+
+.article {
+  border-color: #8C8C8C;
+  width: auto;
+  padding: 10px;
+}
+
+.advert {
+  background-color: #62B2E4;
 }
 
 #sectA {
